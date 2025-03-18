@@ -52,7 +52,6 @@ export default function ErpCrmApp() {
     return (
       <Layout hasSider>
         <Navigation />
-
         {isMobile ? (
           <Layout style={{ marginLeft: 0 }}>
             <HeaderContent />

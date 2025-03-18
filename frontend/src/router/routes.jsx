@@ -32,10 +32,14 @@ const About = lazy(() => import('@/pages/About'));
 let routes = {
   expense: [],
   default: [
-    {
-      path: '/login',
-      element: <Navigate to="/" />,
-    },
+      {
+        path: '/login',
+        element: <Login />,
+      },
+      {
+        path: '/register',
+        element: <Register />,
+      },
     {
       path: '/logout',
       element: <Logout />,
